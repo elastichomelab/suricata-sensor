@@ -31,7 +31,7 @@ vars:
     ENIP_SERVER: $HOME_NET
     ANSIBLE_SERVER: '[10.50.1.4]'
   # K8s
-    K8S_SERVER: '[$HOME_NET,![10.10.1.0/24,10.20.1.0/24,10.40.1.0/24]]'
+    K8S_SERVER: '[10.10.1.0/24,10.20.1.0/24,10.40.1.0/24,10.50.1.0/24]'
   port-groups:
     HTTP_PORTS: 80
     SHELLCODE_PORTS: '!80'
